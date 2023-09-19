@@ -1,0 +1,82 @@
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagetop{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    left: -10%;
+    top: -35%;
+    z-index: -101;
+}
+.imagebotton{
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    right: -10%;
+    bottom: -35%;
+    z-index: -100;
+}
+.imgprofil{
+    border-radius: 100%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 100%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    
+    
+}
+h3{
+    margin: 0px;
+    color: hsl(229, 23%, 23%)
+}
+h3{
+    padding-top: 90px;
+}
+.stat{
+    padding-top: 20px;
+    text-align: center;
+}
+.Card{
+    width: 400px;
+    height: 400px;
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.Profil{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 30%;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.Component{
+    height: 70%;
+    background-color: white;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.statistique{
+    display: flex;
+    justify-content: space-evenly;
+}
+.adress{
+    text-align: center;
+}
+.colorgris,span{
+    color: hsl(227, 10%, 46%);
+    padding: 10px 0px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.bas{
+    font-size: 12px;
+}
